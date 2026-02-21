@@ -1,12 +1,12 @@
 # App Coolify - Documentación
 
-## 📋 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Aplicación web Node.js desplegada con **Coolify** en una máquina virtual Ubuntu ejecutándose en VirtualBox. El objetivo es demostrar cómo Coolify permite desplegar aplicaciones de forma sencilla y acceder a ellas desde el sistema host (Windows).
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 | Tecnología | Versión | Propósito |
 |------------|---------|-----------|
@@ -19,7 +19,7 @@ Aplicación web Node.js desplegada con **Coolify** en una máquina virtual Ubunt
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 AppCoolify/
@@ -32,7 +32,7 @@ AppCoolify/
 
 ---
 
-## 🚀 Endpoints de la Aplicación
+##  Endpoints de la Aplicación
 
 | Método | Ruta | Descripción |
 |--------|------|-------------|
@@ -41,7 +41,7 @@ AppCoolify/
 
 ---
 
-## ⚙️ Configuración de Red (VirtualBox)
+##  Configuración de Red (VirtualBox)
 
 ### Port Forwarding configurado:
 
@@ -52,7 +52,7 @@ AppCoolify/
 
 ---
 
-## 📦 Despliegue con Coolify
+##  Despliegue con Coolify
 
 ### Paso 1: Acceder a Coolify
 1. Abrir navegador en Ubuntu: `http://localhost:8000`
@@ -78,7 +78,7 @@ AppCoolify/
 
 ---
 
-## 🔧 Ejecución Local (Sin Coolify)
+##  Ejecución Local (Sin Coolify)
 
 ```bash
 # Instalar dependencias
@@ -93,7 +93,7 @@ http://localhost:3000
 
 ---
 
-## 📝 Comandos Git Utilizados
+##  Comandos Git Utilizados
 
 ```bash
 # Inicializar repositorio
@@ -114,14 +114,12 @@ git push -u origin main
 
 ---
 
-## ✅ Verificación del Funcionamiento
+##  Verificación del Funcionamiento
 
 1. **Desde Ubuntu (VM)**: `curl http://localhost:3000`
 2. **Desde Windows (Host)**: Abrir `http://localhost:3000` en navegador
 
 ---
-
-## 👤 Autor
 
 Proyecto desarrollado como demostración del uso de Coolify para la asignatura.
 
